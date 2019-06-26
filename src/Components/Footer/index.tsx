@@ -42,7 +42,6 @@ export default class Footer extends React.Component {
                             </a>
 
                         ))}
-                        <p>Image copywright: Hamburg Police</p>
                     </div>
                 </Container>
             </div>

@@ -12,18 +12,6 @@ const VALERIO_MAGGIO = 6;
 const ELENA_NIEDDU = 7;
 
 export const SPEAKERS: Speaker[] = [
-    {
-        name: 'Ellen Könnig',
-        photo: require('Assets/speakers/ellenK.jpg'),
-        job: 'Senior Data Scientist at Humanitec',
-        social: 'https://twitter.com/ellen_koenig'
-    },
-    {
-        name: 'Christian Barra',
-        photo: require('Assets/speakers/christianB.jpeg'),
-        job: 'Senior Software Engineer at INFARM',
-        social: 'https://twitter.com/christianbarra',
-    },
     /*    {
             name: 'TBA',
             photo: 'https://via.placeholder.com/150',
@@ -65,28 +53,10 @@ export const SPEAKERS: Speaker[] = [
 export const SPONSORS: Sponsor[][] = [
     [
         {
-            id: 'sinnerschrader',
-            name: 'SinnerSchrader',
-            photo: require('Assets/sponsors/SinnerS_black.jpg'),
-            link: 'https://sinnerschrader.com',
-        },
-        {
             id: 'PySV',
             name: 'Python Software Verband',
             photo: require('Assets/sponsors/PySVlogo.png'),
             link: 'https://python-verband.org',
-        },
-        {
-            id: 'PSF',
-            name: 'Python Software Foundation',
-            photo: require('Assets/sponsors/psf-logo-narrow-256x84-alpha.png'),
-            link: 'https://www.python.org',
-        },
-        {
-            id: 'Yelp',
-            name: 'Yelp',
-            photo: require('Assets/sponsors/yelp_fullcolor.png'),
-            link: 'https://www.yelp.com',
         },
     ],
     /* [
