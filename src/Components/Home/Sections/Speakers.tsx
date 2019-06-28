@@ -23,7 +23,8 @@ export default class Speakers extends React.Component {
                             rel="noopener noreferrer"
                         >
                             CFP
-                            </a> is open!!! You have until 4th August to apply! Each talk will be 10 minutes long and we would love to have many first time speakers!!</p>
+                            </a> is open and you have until 4th August to apply!<br />
+                            Each talk will be 10 minutes long and we would love to have many first time speakers!!</p>
                     </Container>
 
                 </Container>
