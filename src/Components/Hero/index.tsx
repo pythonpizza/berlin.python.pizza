@@ -15,7 +15,7 @@ export default class Hero extends React.Component {
                             Berlin @ TBA
                         </a>
                     </h2>
-                    <h2>Summer 2019</h2>
+                    <h2>August 2019</h2>
                 </div>
 
                 <Wave />
