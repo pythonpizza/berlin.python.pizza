@@ -58,6 +58,12 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/PySVlogo.png'),
             link: 'https://python-verband.org',
         },
+        {
+            id: 'wooga',
+            name: 'wooga',
+            photo: require('Assets/sponsors/wooga_pride_logo.png'),
+            link: 'https://www.wooga.com/',
+        },
     ],
     /* [
          {
