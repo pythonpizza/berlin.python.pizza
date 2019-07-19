@@ -64,6 +64,12 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/wooga_pride_logo.png'),
             link: 'https://www.wooga.com/',
         },
+        {
+            id: 'infarm',
+            name: 'imfarm',
+            photo: require('Assets/sponsors/infarm.png'),
+            link: 'https://www.infarm.com/',
+        },
     ],
     /* [
          {
