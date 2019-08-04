@@ -2,7 +2,7 @@ import Speaker from '@/Types/Speaker';
 import Sponsor from '@/Types/Sponsor';
 import Schedule, { Types } from '@/Types/Schedule';
 
-const DOMENICO_TESTA = 0;
+const CHIARA_MEZZAVILLA = 0;
 const FIORELLA_DE_LUCA = 1;
 const ANDREA_STAGI = 2;
 const SALVATORE_BUSIELLO = 3;
@@ -64,96 +64,17 @@ export const SPONSORS: Sponsor[][] = [
 ];
 
 export const SCHEDULE: Schedule[] = [
-    /* {
-         order: 0,
-         time: '10:00',
-         title: 'Welcome',
-         type: Types.OTHER,
-     },
-     {
-         order: 1,
-         time: '10:30',
-         title: 'Intro',
-         type: Types.OTHER,
-     },
-     {
-         order: 2,
-         time: '10:45',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: ELENA_NIEDDU,
-     },
-     {
-         order: 3,
-         time: '11:30',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: DOMENICO_TESTA,
-     },
-     {
-         order: 4,
-         time: '12:15',
-         title: 'Break',
-         type: Types.BREAK,
-     },
-     {
-         order: 5,
-         time: '12:30',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: IACOPO_SPALLETTI,
-     },
-     {
-         order: 6,
-         time: '13:15',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: VINCENZO_SANTOPIETRO,
-     },
-     {
-         order: 7,
-         time: '14:00',
-         title: 'Pizza!',
-         type: Types.LUNCH,
-     },
-     {
-         order: 8,
-         time: '15:00',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: FIORELLA_DE_LUCA,
-     },
-     {
-         order: 9,
-         time: '15:45',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: VALERIO_MAGGIO,
-     },
-     {
-         order: 10,
-         time: '16:30',
-         title: 'Break',
-         type: Types.BREAK,
-     },
-     {
-         order: 11,
-         time: '16:45',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: SALVATORE_BUSIELLO,
-     },
-     {
-         order: 12,
-         time: '17:30',
-         title: 'TBA',
-         type: Types.TALK,
-         speaker: ANDREA_STAGI,
-     },
-     {
-         order: 13,
-         time: '18:15',
-         title: 'Outro',
-         type: Types.OTHER,
-     },*/
+    {
+        order: 0,
+        time: '17:00',
+        title: 'Welcome',
+        type: Types.OTHER,
+    },
+    {
+        order: 2,
+        time: '17:10',
+        title: 'Python vs. Go - a Machine Learning experiment',
+        type: Types.TALK,
+        speaker: CHIARA_MEZZAVILLA,
+    },
 ];
