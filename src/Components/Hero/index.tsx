@@ -16,6 +16,7 @@ export default class Hero extends React.Component {
                         </a>
                     </h2>
                     <h2>23 August 2019</h2>
+                    <h2>17:00 - 00:30</h2>
                 </div>
 
                 <Wave />
