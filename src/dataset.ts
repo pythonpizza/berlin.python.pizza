@@ -149,7 +149,7 @@ export const SCHEDULE: Schedule[] = [
     },
     {
         order: 6,
-        time: '18:48',
+        time: '18:30',
         title: 'BREAK',
         type: Types.BREAK,
     },
