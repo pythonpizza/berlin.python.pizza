@@ -10,6 +10,7 @@ const TANIA_VASILIKIOTI = 4;
 const SERGEY_VASILYEV = 5;
 const TAMARA_ATANASOSKA = 6;
 const VALENTIN_HAENEL = 7;
+const MARIELLE_DADO = 8
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -59,6 +60,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/3458019202/21abd6292392f70852b895a74e3055ba_400x400.png',
         job: 'Software Engineer @ Anaconda',
         social: 'https://twitter.com/esc___',
+    },
+    {
+        name: 'Marielle Dado',
+        photo: 'https://pbs.twimg.com/profile_images/657632103052517376/vHt9OWur_400x400.png',
+        job: 'Educational Data Scientist',
+        social: 'https://twitter.com/marielli',
     },
 ];
 
@@ -173,5 +180,12 @@ export const SCHEDULE: Schedule[] = [
         title: 'Numba: a compiler for the jitted generation',
         type: Types.TALK,
         speaker: VALENTIN_HAENEL,
+    },
+    {
+        order: 10,
+        time: '19:36',
+        title: 'Predicting Coffee Quality: My first Summer of Data Science #SoDS Project',
+        type: Types.TALK,
+        speaker: MARIELLE_DADO,
     },
 ];
