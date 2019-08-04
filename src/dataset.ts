@@ -7,9 +7,9 @@ const SEBASTIAN_WITOWSKI = 1;
 const TEREZA_IOFCIU = 2;
 const MOISES_GUIMARES = 3;
 const TANIA_VASILIKIOTI = 4;
-const IACOPO_SPALLETTI = 5;
-const VALERIO_MAGGIO = 6;
-const ELENA_NIEDDU = 7;
+const SERGEY_VASILYEV = 5;
+const TAMARA_ATANASOSKA = 6;
+const VALENTIN_HAENEL = 7;
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -41,6 +41,24 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/636142933528453120/nB7K01PP_400x400.jpg',
         job: 'Data Scientist @ Babbel',
         social: 'https://twitter.com/tvasi',
+    },
+    {
+        name: 'Sergey Vasilyev',
+        photo: 'https://pbs.twimg.com/profile_images/1157246707786272768/rIRMru3B_400x400.jpg',
+        job: 'Senior Backend Engineer @ Zalando',
+        social: 'https://twitter.com/nolar',
+    },
+    {
+        name: 'Tamara Atanasoska',
+        photo: 'https://pbs.twimg.com/profile_images/971536805504970752/QkeqeaJp_400x400.jpg',
+        job: 'Software @ Ableton',
+        social: 'https://twitter.com/tatanasoska',
+    },
+    {
+        name: 'Valentin Haenel',
+        photo: 'https://pbs.twimg.com/profile_images/3458019202/21abd6292392f70852b895a74e3055ba_400x400.png',
+        job: 'Software Engineer @ Anaconda',
+        social: 'https://twitter.com/esc___',
     },
 ];
 
@@ -128,5 +146,32 @@ export const SCHEDULE: Schedule[] = [
         title: 'Just %time it',
         type: Types.TALK,
         speaker: TANIA_VASILIKIOTI,
+    },
+    {
+        order: 6,
+        time: '18:48',
+        title: 'BREAK',
+        type: Types.BREAK,
+    },
+    {
+        order: 7,
+        time: '19:00',
+        title: 'Kubernetes operators in Python with Kopf',
+        type: Types.TALK,
+        speaker: SERGEY_VASILYEV,
+    },
+    {
+        order: 8,
+        time: '19:12',
+        title: 'Multimethods (Multiple Dispatch) in Python',
+        type: Types.TALK,
+        speaker: TAMARA_ATANASOSKA,
+    },
+    {
+        order: 9,
+        time: '19:24',
+        title: 'Numba: a compiler for the jitted generation',
+        type: Types.TALK,
+        speaker: VALENTIN_HAENEL,
     },
 ];
