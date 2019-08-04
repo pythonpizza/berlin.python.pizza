@@ -11,6 +11,7 @@ const SERGEY_VASILYEV = 5;
 const TAMARA_ATANASOSKA = 6;
 const VALENTIN_HAENEL = 7;
 const MARIELLE_DADO = 8
+const DANIEL_RIOS = 9
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -66,6 +67,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/657632103052517376/vHt9OWur_400x400.png',
         job: 'Educational Data Scientist',
         social: 'https://twitter.com/marielli',
+    },
+    {
+        name: 'Daniel Rios',
+        photo: 'https://pbs.twimg.com/profile_images/720637373877526528/qZiIF0t-_400x400.jpg',
+        job: 'Python/Django/Web Developer',
+        social: 'https://twitter.com/Misterrios',
     },
 ];
 
@@ -187,5 +194,18 @@ export const SCHEDULE: Schedule[] = [
         title: 'Predicting Coffee Quality: My first Summer of Data Science #SoDS Project',
         type: Types.TALK,
         speaker: MARIELLE_DADO,
+    },
+    {
+        order: 11,
+        time: '19:48',
+        title: 'You too can (and should) Pull Request!',
+        type: Types.TALK,
+        speaker: DANIEL_RIOS,
+    },
+    {
+        order: 12,
+        time: '20:00',
+        title: 'BREAK',
+        type: Types.BREAK,
     },
 ];
