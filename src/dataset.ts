@@ -6,7 +6,7 @@ const CHIARA_MEZZAVILLA = 0;
 const SEBASTIAN_WITOWSKI = 1;
 const TEREZA_IOFCIU = 2;
 const MOISES_GUIMARES = 3;
-const VINCENZO_SANTOPIETRO = 4;
+const TANIA_VASILIKIOTI = 4;
 const IACOPO_SPALLETTI = 5;
 const VALERIO_MAGGIO = 6;
 const ELENA_NIEDDU = 7;
@@ -35,6 +35,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/1111210748393545728/Pw86TYqE_400x400.png',
         job: 'Software Engineer @ Red Hat',
         social: 'https://twitter.com/moisesguimaraes',
+    },
+    {
+        name: 'Tania Vasilikioti',
+        photo: 'https://pbs.twimg.com/profile_images/636142933528453120/nB7K01PP_400x400.jpg',
+        job: 'Data Scientist @ Babbel',
+        social: 'https://twitter.com/tvasi',
     },
 ];
 
@@ -115,5 +121,12 @@ export const SCHEDULE: Schedule[] = [
         title: 'Music as Code',
         type: Types.TALK,
         speaker: MOISES_GUIMARES,
+    },
+    {
+        order: 5,
+        time: '18:18',
+        title: 'Just %time it',
+        type: Types.TALK,
+        speaker: TANIA_VASILIKIOTI,
     },
 ];
