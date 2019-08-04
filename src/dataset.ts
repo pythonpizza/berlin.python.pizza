@@ -12,42 +12,12 @@ const VALERIO_MAGGIO = 6;
 const ELENA_NIEDDU = 7;
 
 export const SPEAKERS: Speaker[] = [
-    /*    {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'Lotrek',
-            social: 'https://twitter.com/4stagi',
-        },
-        {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'Lotrek',
-            social: 'https://twitter.com/owanesh',
-        },
-        {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'Intel Student Ambassador',
-            social: 'https://twitter.com/vinx_key',
-        },
-        {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'Nephila',
-            social: 'https://twitter.com/yakkys',
-        },
-        {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'Fondazione Bruno Kessler',
-            social: 'https://twitter.com/leriomaggio',
-        },
-        {
-            name: 'TBA',
-            photo: 'https://via.placeholder.com/150',
-            job: 'PhD student in Computer Science',
-            social: 'https://www.linkedin.com/in/elena-nieddu-b06896154/',
-        },*/
+    {
+        name: 'Chiara Mezzavilla',
+        photo: 'https://pbs.twimg.com/profile_images/843489367066918913/Eax3Rtgy_400x400.jpg',
+        job: 'Software Developer @ Zalando',
+        social: 'https://twitter.com/ChiaraM_87',
+    },
 ];
 
 export const SPONSORS: Sponsor[][] = [
