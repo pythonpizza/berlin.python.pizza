@@ -13,6 +13,7 @@ const VALENTIN_HAENEL = 7;
 const MARIELLE_DADO = 8
 const DANIEL_RIOS = 9
 const ANDRADA_PUMNEA = 10
+const CAIO_MIYASHIRO = 11
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -80,6 +81,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/1107383830372143105/1PNSvmXc_400x400.jpg',
         job: 'Data Scientist @ Futurice',
         social: 'https://twitter.com/alucardna',
+    },
+    {
+        name: 'Caio Miyashiro',
+        photo: 'https://avatars3.githubusercontent.com/u/7267504?s=460&v=4',
+        job: 'Data Scientist @ FREE NOW',
+        social: 'https://github.com/caiomiyashiro',
     },
 ];
 
@@ -255,8 +262,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 19,
         time: '22:40',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'Kepler.gl + Python for your spatial data analysis',
+        type: Types.TALK,
+        speaker: CAIO_MIYASHIRO,
     },
     {
         order: 20,
