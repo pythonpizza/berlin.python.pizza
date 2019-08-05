@@ -17,6 +17,7 @@ const CAIO_MIYASHIRO = 11
 const GESA_STUPPERICH = 12
 const IOANA_GHERMAN = 13
 const EMILY_WOODS = 14
+const CAJETAN_RODRIGUES = 15
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -108,6 +109,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/1143547677902331905/gCU9GS43_400x400.png',
         job: 'Software Engineer @ Crate.io',
         social: 'https://www.twitter.com/sometimes_milo',
+    },
+    {
+        name: 'Cajetan Rodrigues',
+        photo: 'https://pbs.twimg.com/profile_images/786162903850168321/sJhtXeDR_400x400.jpg',
+        job: 'Team Lead @ TrustYou',
+        social: 'https://www.twitter.com/r_cajetan',
     },
 ];
 
@@ -299,8 +306,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 21,
         time: '23:04',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'Speeding up Python using A Single Command',
+        type: Types.TALK,
+        speaker: CAJETAN_RODRIGUES,
     },
     {
         order: 22,
