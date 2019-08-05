@@ -22,7 +22,7 @@ export const SPEAKERS: Speaker[] = [
         social: 'https://twitter.com/ChiaraM_87',
     },
     {
-        name: 'Sebastian Witowoski',
+        name: 'Sebastian Witowski',
         photo: 'https://pbs.twimg.com/profile_images/1087400980185006082/WtuzQSQ2_400x400.jpg',
         job: 'Freelancer',
         social: 'https://twitter.com/sebawitowski',
