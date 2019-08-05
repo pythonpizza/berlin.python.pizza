@@ -19,6 +19,9 @@ const IOANA_GHERMAN = 13
 const EMILY_WOODS = 14
 const CAJETAN_RODRIGUES = 15
 const NADEZHDA_ZABORSKAIA = 16
+const ANASTASIIA_TYMOSHCHUK = 17
+const DANIEL_KRAVETZ = 18
+const MIKE_MÜLLER = 19
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -123,6 +126,24 @@ export const SPEAKERS: Speaker[] = [
         job: 'Working Student Data Science @ FreeNow',
         social: 'https://www.linkedin.com/in/nadezhda-zaborskaia-473015a6/',
     },
+    {
+        name: 'Anastasiia Tymoshchuk',
+        photo: 'https://media.licdn.com/dms/image/C5603AQGSutCHcg-A0A/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=044teNC0gFq1z0rij-WZ6jbsOsVPcSQHH3NPzzRpSOU',
+        job: 'Senior Software Developer',
+        social: 'https://www.twitter.com/anastasiatymo',
+    },
+    {
+        name: 'Daniel Kravetz',
+        photo: 'https://pbs.twimg.com/profile_images/691770193492742149/GUeoItKp_400x400.jpg',
+        job: 'DevOps',
+        social: 'https://www.twitter.com/Av4t4r',
+    },
+    {
+        name: 'Mike Müller',
+        photo: 'https://media.licdn.com/dms/image/C4E03AQEIhle3ZV8xNQ/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=952qFIp-LG9Hn_oXT6_9wMiFYJQRuZX9Ktn2cdvBOtM',
+        job: 'CEO @ PyAcademy',
+        social: 'https://www.twitter.com/pyacademy',
+    },
 ];
 
 export const SPONSORS: Sponsor[][] = [
@@ -199,9 +220,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 4,
         time: '18:06',
-        title: 'Music as Code',
+        title: 'You Will be Assimilated. Resistance is Futile - Incorporating Fortran into Python',
         type: Types.TALK,
-        speaker: MOISES_GUIMARES,
+        speaker: MIKE_MÜLLER
     },
     {
         order: 5,
@@ -274,9 +295,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 15,
         time: '21:34',
-        title: 'You too can (and should) Pull Request!',
+        title: 'Music as Code',
         type: Types.TALK,
-        speaker: DANIEL_RIOS,
+        speaker: MOISES_GUIMARES,
     },
     {
         order: 16,
@@ -288,8 +309,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 17,
         time: '21:58',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'You too can (and should) Pull Request!',
+        type: Types.TALK,
+        speaker: DANIEL_RIOS,
     },
     {
         order: 18,
@@ -321,14 +343,16 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 22,
         time: '23:16',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'Docker + Python, How To Get There?',
+        type: Types.TALK,
+        speaker: DANIEL_KRAVETZ,
     },
     {
         order: 23,
         time: '23:28',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'The Agile comedy: from hell to paradise',
+        type: Types.TALK,
+        speaker: ANASTASIIA_TYMOSHCHUK
     },
     {
         order: 24,
