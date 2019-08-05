@@ -249,7 +249,7 @@ export const SCHEDULE: Schedule[] = [
         time: '19:48',
         title: 'Mlflow project from scratch',
         type: Types.TALK,
-        speaker: DANIEL_RIOS,
+        speaker: NADEZHDA_ZABORSKAIA,
     },
     {
         order: 12,
