@@ -291,7 +291,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 25,
         time: '00:00',
-        title: '🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂',
+        title: '🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂🎂',
         type: Types.OTHER,
     },
 ];
