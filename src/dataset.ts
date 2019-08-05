@@ -12,6 +12,7 @@ const TAMARA_ATANASOSKA = 6;
 const VALENTIN_HAENEL = 7;
 const MARIELLE_DADO = 8
 const DANIEL_RIOS = 9
+const ANDRADA_PUMNEA = 10
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -73,6 +74,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/720637373877526528/qZiIF0t-_400x400.jpg',
         job: 'Python/Django/Web Developer',
         social: 'https://twitter.com/Misterrios',
+    },
+    {
+        name: 'Andrada Pumnea',
+        photo: 'https://pbs.twimg.com/profile_images/1107383830372143105/1PNSvmXc_400x400.jpg',
+        job: 'Data Scientist @ Futurice',
+        social: 'https://twitter.com/alucardna',
     },
 ];
 
@@ -211,8 +218,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 13,
         time: '21:10',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'Does hate sound the same in all languages?',
+        type: Types.TALK,
+        speaker: ANDRADA_PUMNEA,
     },
     {
         order: 14,
