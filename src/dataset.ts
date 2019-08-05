@@ -14,6 +14,7 @@ const MARIELLE_DADO = 8
 const DANIEL_RIOS = 9
 const ANDRADA_PUMNEA = 10
 const CAIO_MIYASHIRO = 11
+const GESA_STUPPERICH = 12
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -87,6 +88,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://avatars3.githubusercontent.com/u/7267504?s=460&v=4',
         job: 'Data Scientist @ FREE NOW',
         social: 'https://github.com/caiomiyashiro',
+    },
+    {
+        name: 'Gesa Stupperich',
+        photo: 'https://pbs.twimg.com/profile_images/1125464230143115265/oWCc0wea_400x400.png',
+        job: 'Software Developer',
+        social: 'https://twitter.com/neinkeinkaffee',
     },
 ];
 
@@ -238,8 +245,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 15,
         time: '21:34',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'When everything that can be automated must be automated: the benefits of continuously integration and deployment (CI/CD) for solo projects',
+        type: Types.TALK,
+        speaker: GESA_STUPPERICH,
     },
     {
         order: 16,
