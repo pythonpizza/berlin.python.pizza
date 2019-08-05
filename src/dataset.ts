@@ -18,6 +18,7 @@ const GESA_STUPPERICH = 12
 const IOANA_GHERMAN = 13
 const EMILY_WOODS = 14
 const CAJETAN_RODRIGUES = 15
+const NADEZHDA_ZABORSKAIA = 16
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -115,6 +116,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/786162903850168321/sJhtXeDR_400x400.jpg',
         job: 'Team Lead @ TrustYou',
         social: 'https://www.twitter.com/r_cajetan',
+    },
+    {
+        name: 'Nadezhda Zaborskaia',
+        photo: 'https://media.licdn.com/dms/image/C4E03AQG1VjwcFpYPxA/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=AHZmdM15LLh9Hy27Qk8ti7wqM93xhWQ_dtVsp7SICsY',
+        job: 'Working Student Data Science @ FreeNow',
+        social: 'https://www.linkedin.com/in/nadezhda-zaborskaia-473015a6/',
     },
 ];
 
@@ -240,7 +247,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 11,
         time: '19:48',
-        title: 'You too can (and should) Pull Request!',
+        title: 'Mlflow project from scratch',
         type: Types.TALK,
         speaker: DANIEL_RIOS,
     },
@@ -274,8 +281,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 16,
         time: '21:46',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'You too can (and should) Pull Request!',
+        type: Types.TALK,
+        speaker: DANIEL_RIOS,
     },
     {
         order: 17,
