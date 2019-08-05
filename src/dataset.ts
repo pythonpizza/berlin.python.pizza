@@ -164,7 +164,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 6,
         time: '18:30',
-        title: 'BREAK',
+        title: 'BREAK (30 mins)',
         type: Types.BREAK,
     },
     {
@@ -205,7 +205,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 12,
         time: '20:00',
-        title: 'PIZZAAAAAAAA',
+        title: '🍕🍕🍕🍕🍕 PIZZAAAAAAAA 🍕🍕🍕🍕🍕',
         type: Types.LUNCH,
     },
     {
@@ -241,7 +241,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 18,
         time: '22:10',
-        title: 'BREAK',
+        title: 'BREAK (30 mins)',
         type: Types.BREAK,
     },
     {
