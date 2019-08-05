@@ -41,7 +41,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Moisés Guimarães',
-        photo: 'https://pbs.twimg.com/profile_images/1111210748393545728/Pw86TYqE_400x400.png',
+        photo: require('Assets/speakers/moises.png'),
         job: 'Software Engineer @ Red Hat',
         social: 'https://twitter.com/moisesguimaraes',
     },
@@ -219,16 +219,16 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 7,
         time: '19:00',
-        title: 'Kubernetes operators in Python with Kopf',
+        title: 'Multimethods (Multiple Dispatch) in Python',
         type: Types.TALK,
-        speaker: SERGEY_VASILYEV,
+        speaker: TAMARA_ATANASOSKA,
     },
     {
         order: 8,
         time: '19:12',
-        title: 'Multimethods (Multiple Dispatch) in Python',
+        title: 'Mlflow project from scratch',
         type: Types.TALK,
-        speaker: TAMARA_ATANASOSKA,
+        speaker: NADEZHDA_ZABORSKAIA,
     },
     {
         order: 9,
@@ -247,9 +247,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 11,
         time: '19:48',
-        title: 'Mlflow project from scratch',
+        title: 'Kubernetes operators in Python with Kopf',
         type: Types.TALK,
-        speaker: NADEZHDA_ZABORSKAIA,
+        speaker: SERGEY_VASILYEV,
     },
     {
         order: 12,
@@ -274,16 +274,16 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 15,
         time: '21:34',
-        title: 'When everything that can be automated must be automated: the benefits of continuously integration and deployment (CI/CD) for solo projects',
+        title: 'You too can (and should) Pull Request!',
         type: Types.TALK,
-        speaker: GESA_STUPPERICH,
+        speaker: DANIEL_RIOS,
     },
     {
         order: 16,
         time: '21:46',
-        title: 'You too can (and should) Pull Request!',
+        title: 'When everything that can be automated must be automated: the benefits of continuously integration and deployment (CI/CD) for solo projects',
         type: Types.TALK,
-        speaker: DANIEL_RIOS,
+        speaker: GESA_STUPPERICH,
     },
     {
         order: 17,
