@@ -309,9 +309,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 17,
         time: '21:58',
-        title: 'You too can (and should) Pull Request!',
+        title: 'The Agile comedy: from hell to paradise',
         type: Types.TALK,
-        speaker: DANIEL_RIOS,
+        speaker: ANASTASIIA_TYMOSHCHUK
     },
     {
         order: 18,
@@ -350,9 +350,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 23,
         time: '23:28',
-        title: 'The Agile comedy: from hell to paradise',
+        title: 'You too can (and should) Pull Request!',
         type: Types.TALK,
-        speaker: ANASTASIIA_TYMOSHCHUK
+        speaker: DANIEL_RIOS,
     },
     {
         order: 24,
