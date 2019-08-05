@@ -15,6 +15,7 @@ const DANIEL_RIOS = 9
 const ANDRADA_PUMNEA = 10
 const CAIO_MIYASHIRO = 11
 const GESA_STUPPERICH = 12
+const IOANA_GHERMAN = 13
 
 export const SPEAKERS: Speaker[] = [
     {
@@ -94,6 +95,12 @@ export const SPEAKERS: Speaker[] = [
         photo: 'https://pbs.twimg.com/profile_images/1125464230143115265/oWCc0wea_400x400.png',
         job: 'Software Developer',
         social: 'https://twitter.com/neinkeinkaffee',
+    },
+    {
+        name: 'Ioana Gherman',
+        photo: 'https://media.licdn.com/dms/image/C5603AQEF4L2_C69yBw/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=bZy3c5hN4b7j5RzkHaYl4plr86au-KvC9zSpO8XDsHY',
+        job: 'Data Scientist @ Casavo',
+        social: 'https://www.linkedin.com/in/ioana-gherman-6b4998b0/',
     },
 ];
 
@@ -277,8 +284,9 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 20,
         time: '22:52',
-        title: 'Talk',
-        type: Types.BREAK,
+        title: 'TBA',
+        type: Types.TALK,
+        speaker: IOANA_GHERMAN,
     },
     {
         order: 21,
