@@ -357,7 +357,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 24,
         time: '23:30',
-        title: '🎉 LIGHTING TALKS 🎉',
+        title: '🎉 LIGHTNING TALKS 🎉',
         type: Types.OTHER,
     },
     {
