@@ -329,7 +329,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 20,
         time: '22:42',
-        title: 'TBA',
+        title: 'Geospatial data made easy with Geoalchemy and Postgis',
         type: Types.TALK,
         speaker: IOANA_GHERMAN,
     },
