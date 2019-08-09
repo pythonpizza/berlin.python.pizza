@@ -56,7 +56,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Sergey Vasilyev',
-        photo: 'https://pbs.twimg.com/profile_images/1157246707786272768/rIRMru3B_400x400.jpg',
+        photo: require('Assets/speakers/sergey.jpg'),
         job: 'Senior Backend Engineer @ Zalando',
         social: 'https://twitter.com/nolar',
     },
@@ -86,7 +86,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Andrada Pumnea',
-        photo: 'https://pbs.twimg.com/profile_images/1107383830372143105/1PNSvmXc_400x400.jpg',
+        photo: require('Assets/speakers/andrada.png'),
         job: 'Data Scientist @ Futurice',
         social: 'https://twitter.com/alucardna',
     },
@@ -98,7 +98,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Gesa Stupperich',
-        photo: 'https://pbs.twimg.com/profile_images/1125464230143115265/oWCc0wea_400x400.png',
+        photo: require('Assets/speakers/gesa.png'),
         job: 'Software Developer',
         social: 'https://twitter.com/neinkeinkaffee',
     },
@@ -122,7 +122,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Nadezhda Zaborskaia',
-        photo: 'https://media.licdn.com/dms/image/C4E03AQG1VjwcFpYPxA/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=AHZmdM15LLh9Hy27Qk8ti7wqM93xhWQ_dtVsp7SICsY',
+        photo: require('Assets/speakers/nadezhda.jpg'),
         job: 'Working Student Data Science @ FreeNow',
         social: 'https://www.linkedin.com/in/nadezhda-zaborskaia-473015a6/',
     },
@@ -140,7 +140,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Mike Müller',
-        photo: 'https://media.licdn.com/dms/image/C4E03AQEIhle3ZV8xNQ/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=952qFIp-LG9Hn_oXT6_9wMiFYJQRuZX9Ktn2cdvBOtM',
+        photo: require('Assets/speakers/mike.jpg'),
         job: 'CEO @ PyAcademy',
         social: 'https://www.twitter.com/pyacademy',
     },
