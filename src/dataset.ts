@@ -26,19 +26,19 @@ const MIKE_MÜLLER = 19
 export const SPEAKERS: Speaker[] = [
     {
         name: 'Chiara Mezzavilla',
-        photo: 'https://pbs.twimg.com/profile_images/843489367066918913/Eax3Rtgy_400x400.jpg',
+        photo: require('Assets/speakers/chiara.jpg'),
         job: 'Software Developer @ Zalando',
         social: 'https://twitter.com/ChiaraM_87',
     },
     {
         name: 'Sebastian Witowski',
-        photo: 'https://pbs.twimg.com/profile_images/1087400980185006082/WtuzQSQ2_400x400.jpg',
+        photo: require('Assets/speakers/sebastian.jpg'),
         job: 'Freelancer',
         social: 'https://twitter.com/sebawitowski',
     },
     {
         name: 'Tereza Iofciu',
-        photo: 'https://pbs.twimg.com/profile_images/918446705800110081/9B7513w7_400x400.jpg',
+        photo: require('Assets/speakers/sebastian.jpg'),
         job: 'Lead Data Scientist @ Free Now',
         social: 'https://twitter.com/terezaif',
     },
@@ -50,7 +50,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Tania Vasilikioti',
-        photo: 'https://pbs.twimg.com/profile_images/636142933528453120/nB7K01PP_400x400.jpg',
+        photo: require('Assets/speakers/tania.jpg'),
         job: 'Data Scientist @ Babbel',
         social: 'https://twitter.com/tvasi',
     },
@@ -62,19 +62,19 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Tamara Atanasoska',
-        photo: 'https://pbs.twimg.com/profile_images/971536805504970752/QkeqeaJp_400x400.jpg',
+        photo: require('Assets/speakers/tamara.jpg'),
         job: 'Software @ Ableton',
         social: 'https://twitter.com/tatanasoska',
     },
     {
         name: 'Valentin Haenel',
-        photo: 'https://pbs.twimg.com/profile_images/3458019202/21abd6292392f70852b895a74e3055ba_400x400.png',
+        photo: require('Assets/speakers/valenting.jpg'),
         job: 'Software Engineer @ Anaconda',
         social: 'https://twitter.com/esc___',
     },
     {
         name: 'Marielle Dado',
-        photo: 'https://pbs.twimg.com/profile_images/657632103052517376/vHt9OWur_400x400.png',
+        photo: require('Assets/speakers/marielle.png'),
         job: 'Educational Data Scientist',
         social: 'https://twitter.com/marielli',
     },
@@ -110,7 +110,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Emily Woods',
-        photo: 'https://pbs.twimg.com/profile_images/1143547677902331905/gCU9GS43_400x400.png',
+        photo: require('Assets/speakers/emily.png'),
         job: 'Software Engineer @ Crate.io',
         social: 'https://www.twitter.com/sometimes_milo',
     },
@@ -128,7 +128,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Anastasiia Tymoshchuk',
-        photo: 'https://media.licdn.com/dms/image/C5603AQGSutCHcg-A0A/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=044teNC0gFq1z0rij-WZ6jbsOsVPcSQHH3NPzzRpSOU',
+        photo: require('Assets/speakers/anastasiia.jpg'),
         job: 'Senior Software Developer',
         social: 'https://www.twitter.com/anastasiatymo',
     },
