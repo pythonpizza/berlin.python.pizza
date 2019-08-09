@@ -68,7 +68,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Valentin Haenel',
-        photo: require('Assets/speakers/valenting.jpg'),
+        photo: require('Assets/speakers/valentin.png'),
         job: 'Software Engineer @ Anaconda',
         social: 'https://twitter.com/esc___',
     },
@@ -86,7 +86,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Andrada Pumnea',
-        photo: require('Assets/speakers/andrada.png'),
+        photo: require('Assets/speakers/andrada.jpg'),
         job: 'Data Scientist @ Futurice',
         social: 'https://twitter.com/alucardna',
     },
