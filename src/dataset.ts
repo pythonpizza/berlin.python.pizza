@@ -80,7 +80,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Daniel Rios',
-        photo: 'https://pbs.twimg.com/profile_images/720637373877526528/qZiIF0t-_400x400.jpg',
+        photo: require('Assets/speakers/daniel-rios.jpg'),
         job: 'Python/Django/Web Developer',
         social: 'https://twitter.com/Misterrios',
     },
@@ -104,7 +104,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Ioana Gherman',
-        photo: 'https://media.licdn.com/dms/image/C5603AQEF4L2_C69yBw/profile-displayphoto-shrink_800_800/0?e=1570665600&v=beta&t=bZy3c5hN4b7j5RzkHaYl4plr86au-KvC9zSpO8XDsHY',
+        photo: require('Assets/speakers/ioana.jpg'),
         job: 'Data Scientist @ Casavo',
         social: 'https://www.linkedin.com/in/ioana-gherman-6b4998b0/',
     },
@@ -116,7 +116,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Cajetan Rodrigues',
-        photo: 'https://pbs.twimg.com/profile_images/786162903850168321/sJhtXeDR_400x400.jpg',
+        photo: require('Assets/speakers/cajetan.jpg'),
         job: 'Team Lead @ TrustYou',
         social: 'https://www.twitter.com/r_cajetan',
     },
@@ -134,7 +134,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Daniel Kravetz',
-        photo: 'https://pbs.twimg.com/profile_images/691770193492742149/GUeoItKp_400x400.jpg',
+        photo: require('Assets/speakers/daniel.jpg'),
         job: 'DevOps',
         social: 'https://www.twitter.com/Av4t4r',
     },
