@@ -38,7 +38,7 @@ export const SPEAKERS: Speaker[] = [
     },
     {
         name: 'Tereza Iofciu',
-        photo: require('Assets/speakers/sebastian.jpg'),
+        photo: require('Assets/speakers/tereza.jpg'),
         job: 'Lead Data Scientist @ Free Now',
         social: 'https://twitter.com/terezaif',
     },
