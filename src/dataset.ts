@@ -302,7 +302,7 @@ export const SCHEDULE: Schedule[] = [
     {
         order: 16,
         time: '21:36',
-        title: 'When everything that can be automated must be automated: the benefits of continuously integration and deployment (CI/CD) for solo projects',
+        title: 'When everything that can be automated must be automated: the benefits of continuous integration and deployment (CI/CD) for solo projects',
         type: Types.TALK,
         speaker: GESA_STUPPERICH,
     },
