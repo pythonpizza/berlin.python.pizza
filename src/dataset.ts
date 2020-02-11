@@ -23,6 +23,17 @@ const ANASTASIIA_TYMOSHCHUK = 17
 const DANIEL_KRAVETZ = 18
 const MIKE_MÜLLER = 19
 
+export const KEYSPEAKERS: Speaker[] = [
+    {
+        name: 'TBD',
+        photo: 'https://familytransitionplace.ca/wp-content/uploads/2019/05/photodune-12348343-anonymous-female-profile-picture-m.jpg',
+    },
+    {
+        name: 'TBD',
+        photo: 'https://thumbs.dreamstime.com/b/anonymous-business-man-profile-picture-white-background-57594793.jpg',
+    },
+];
+
 export const SPEAKERS: Speaker[] = [
     {
         name: 'Chiara Mezzavilla',
@@ -160,33 +171,7 @@ export const SPONSORS: Sponsor[][] = [
             photo: require('Assets/sponsors/wooga_pride_logo.png'),
             link: 'https://www.wooga.com/',
         },
-        {
-            id: 'infarm',
-            name: 'imfarm',
-            photo: require('Assets/sponsors/infarm.png'),
-            link: 'https://www.infarm.com/',
-        },
     ],
-    /* [
-         {
-             id: 'pythonitalia',
-             name: 'TBA',
-             photo: 'https://via.placeholder.com/150',
-             link: 'https://pycon.it/',
-         },
-         {
-             id: 'psf',
-             name: 'TBA',
-             photo: 'https://via.placeholder.com/150',
-             link: 'https://www.012factory.it/',
-         },
-         {
-             id: 'f012actory',
-             name: 'TBA',
-             photo: 'https://via.placeholder.com/150',
-             link: 'https://www.012factory.it/',
-         },
-     ],*/
 ];
 
 export const SCHEDULE: Schedule[] = [

@@ -11,12 +11,13 @@ export default class Hero extends React.Component {
                 <div className="hero--info">
                     <h1>Python Pizza Night</h1>
                     <h2>
-                        <a target="_blank" rel="noopener noreferrer">
-                            Berlin @ Wooga
+                        Berlin @ Wooga <br />
+                        <a href="https://goo.gl/maps/mkQP66yAnXGHdK9w6" target="_blank">
+                            Saarbrücker Str. 38, 10405 Berlin
                         </a>
                     </h2>
-                    <h2>23 August 2019</h2>
-                    <h2>17:00 - 00:30</h2>
+                    <h2>Saturday 16 May 2020</h2>
+                    <h2>10:00 - 17:30 - Doors open at 09:30</h2>
                 </div>
 
                 <Wave />

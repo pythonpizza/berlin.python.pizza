@@ -12,7 +12,7 @@ export default class Schedule extends React.Component {
                     <Container size={Sizes.small}>
                         <h1>Schedule</h1>
                     </Container>
-                    <ul>
+                    {/* <ul>
                         {SCHEDULE.map(schedule => (
                             <ScheduleItem
                                 key={schedule.order}
@@ -20,9 +20,11 @@ export default class Schedule extends React.Component {
                                 speaker={typeof schedule.speaker !== 'undefined' ? SPEAKERS[schedule.speaker] : null}
                             />
                         ))}
-                    </ul>
+                    </ul> */}
+                    <h2 align="center">Coming soon! <a href="https://forms.gle/um1jAQXWrGpM7qwg6" target="_blank">Apply here for a talk.</a> </h2><br />
+                    <h2 align="center">Each talk will be 10 minutes long and we would love to have many first time speakers!!</h2>
                 </Container>
-            </section>
+            </section >
         );
     }
 }
