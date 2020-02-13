@@ -8,7 +8,7 @@ export default class Schedule extends React.Component {
     render() {
         return (
             <section id="schedule" className="schedule">
-                <Container size={Sizes.large}>
+                <Container size={Sizes.medium}>
                     <Container size={Sizes.small}>
                         <h1>Schedule</h1>
                     </Container>
@@ -21,8 +21,8 @@ export default class Schedule extends React.Component {
                             />
                         ))}
                     </ul> */}
-                    <h2 align="center">Coming soon! <a href="https://forms.gle/um1jAQXWrGpM7qwg6" target="_blank">Apply here for a talk.</a> </h2><br />
-                    <h2 align="center">Each talk will be 10 minutes long and we would love to have many first time speakers!!</h2>
+		    <p><b>Coming soon! <a href="https://forms.gle/um1jAQXWrGpM7qwg6" target="_blank">Apply here for a talk.</a></b></p>
+		    <p>Each talk will be 10 minutes long and we would love to have many first time speakers!</p>
                 </Container>
             </section >
         );
