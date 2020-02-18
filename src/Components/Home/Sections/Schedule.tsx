@@ -21,8 +21,9 @@ export default class Schedule extends React.Component {
                             />
                         ))}
                     </ul> */}
-		    <p><b>Coming soon! <a href="https://forms.gle/um1jAQXWrGpM7qwg6" target="_blank">Apply here for a talk.</a></b></p>
-		    <p>Each talk will be 10 minutes long and we would love to have many first time speakers!</p>
+                    <p>Coming soon! </p><br />
+                    <p>If you’re interested in giving a talk yourself, please apply through the Call for Proposals.</p>
+                    <p>Each talk will be 10 minutes long and we would love to have many first time speakers!</p>
                 </Container>
             </section >
         );
