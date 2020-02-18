@@ -9,7 +9,7 @@ export default class Hero extends React.Component {
         return (
             <div className="hero">
                 <div className="hero--info">
-                    <h1>Python Pizza Night</h1>
+                    <h1>Python Pizza</h1>
                     <h2>
                         Berlin @ Wooga <br />
                         <a href="https://goo.gl/maps/mkQP66yAnXGHdK9w6" target="_blank">
