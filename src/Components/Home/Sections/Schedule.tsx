@@ -8,11 +8,11 @@ export default class Schedule extends React.Component {
     render() {
         return (
             <section id="schedule" className="schedule">
-                <Container size={Sizes.large}>
+                <Container size={Sizes.medium}>
                     <Container size={Sizes.small}>
                         <h1>Schedule</h1>
                     </Container>
-                    <ul>
+                    {/* <ul>
                         {SCHEDULE.map(schedule => (
                             <ScheduleItem
                                 key={schedule.order}
@@ -20,9 +20,12 @@ export default class Schedule extends React.Component {
                                 speaker={typeof schedule.speaker !== 'undefined' ? SPEAKERS[schedule.speaker] : null}
                             />
                         ))}
-                    </ul>
+                    </ul> */}
+                    <p>Coming soon! </p><br />
+                    <p>If you’re interested in giving a talk yourself, please apply through the Call for Proposals.</p>
+                    <p>Each talk will be 10 minutes long and we would love to have many first time speakers!</p>
                 </Container>
-            </section>
+            </section >
         );
     }
 }
