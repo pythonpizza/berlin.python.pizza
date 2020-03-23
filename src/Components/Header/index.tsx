@@ -58,7 +58,7 @@ export default class Header extends React.Component {
                                 Call for Proposals
                             </a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a
                                 href="https://ti.to/pythonpizza/berlin-python-pizza-2020"
                                 target="_blank"
@@ -66,7 +66,7 @@ export default class Header extends React.Component {
                             >
                                 Tickets
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </Container>
             </div>
