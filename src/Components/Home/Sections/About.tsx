@@ -7,6 +7,8 @@ export default class About extends React.Component {
         return (
             <section id="about">
                 <Container size={Sizes.medium}>
+                    <br /><h2><b>Update</b>: Because of the current situation with Covid-19, we're postponing the event to August.
+                    Follow us on twitter to stay updated with the new location and date. We're coming back soon!</h2><br /><br /><br />
                     <h1>Python Pizza</h1>
                     <p><b>Python Pizza</b> is a micro conference organized by the Python Berlin Community.</p>
                     <p>
@@ -15,7 +17,7 @@ export default class About extends React.Component {
                     <p>Thanks to the Python Pizza (Naples!) that started this format!</p>
                     <br></br>
                 </Container>
-            </section>
+            </section >
         );
     }
 }
